@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest>
+	<remote fetch="https://gitlab.com/mediatek/aiot/rity" name="rity" />
+	<remote fetch="https://gitlab.com/mediatek/aiot/pilot/compute" name="compute" />
+	<remote fetch="https://git.yoctoproject.org" name="yocto" />
+	<remote fetch="https://git.openembedded.org" name="oe" />
+	<remote fetch="https://github.com/" name="github" />
+
+	<default revision="kirkstone" />
+
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" />
+	<project name="meta-mediatek-compute.git" path="src/meta-mediatek-compute" remote="compute" />
+	<project name="poky.git" path="src/poky" remote="yocto" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" />
+	<project name="meta-security" path="src/meta-security" remote="yocto" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" />
+	<project name="meta-virtualization.git" path="src/meta-virtualization" remote="yocto" />
+</manifest>
