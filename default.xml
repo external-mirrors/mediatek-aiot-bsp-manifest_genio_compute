@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
 	<remote fetch="https://gitlab.com/mediatek/aiot/rity" name="rity" />
+	<remote fetch="https://git01.mediatek.com/mediatek/aiot/nda" name="nda" />
 	<remote fetch="https://git.yoctoproject.org" name="yocto" />
 	<remote fetch="https://git.openembedded.org" name="oe" />
 	<remote fetch="https://github.com/" name="github" />
@@ -10,6 +11,7 @@
 	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" />
 	<project name="meta-mediatek-compute.git" path="src/meta-mediatek-compute" remote="rity" />
+	<project name="meta-mediatek-bsp-mt8893" path="src/meta-mediatek-bsp-mt8893" remote="nda" />
 	<project name="poky.git" path="src/poky" remote="yocto" />
 	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
 	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" />
