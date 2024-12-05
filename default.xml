@@ -7,7 +7,7 @@
 
 	<default revision="kirkstone" />
 
-	<project name="meta-rity.git" path="src/meta-rity" remote="rity" />
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="22c4862f3ffbabe52f682571699e259e60df035d" />
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" />
 	<project name="meta-mediatek-compute.git" path="src/meta-mediatek-compute" remote="rity" />
 	<project name="poky.git" path="src/poky" remote="yocto" />
