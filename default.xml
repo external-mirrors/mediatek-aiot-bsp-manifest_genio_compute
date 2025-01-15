@@ -12,10 +12,10 @@
 	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" />
 	<project name="meta-mediatek-compute.git" path="src/meta-mediatek-compute" remote="rity" />
 	<project name="meta-mediatek-bsp-mt8893" path="src/meta-mediatek-bsp-mt8893" remote="nda" />
-	<project name="poky.git" path="src/poky" remote="yocto" />
-	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" />
-	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" />
-	<project name="meta-security" path="src/meta-security" remote="yocto" />
-	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" />
-	<project name="meta-virtualization.git" path="src/meta-virtualization" remote="yocto" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="dc98af7cabb7b5db6bfa82ef78baf9d7fd7827d2" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="d7b7b6fb6c7c5545e718e44f38853d1718ce5446" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="8bb16533532b6abc2eded7d9961ab2a108fd7a5b" />
+	<project name="meta-security" path="src/meta-security" remote="yocto" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="312ff1c39b1bf5d35c0321e873417eb013cea477" />
+	<project name="meta-virtualization.git" path="src/meta-virtualization" remote="yocto" revision="cb2bc17e96552cdfc141d27bd9f4dbd95a872846" />
 </manifest>
